@@ -148,7 +148,7 @@ Nuevo en v1.0.2.2
             <fr>Superficie du champ %d</fr>
             <en>Field %d Area</en>
             <de>Feld %d Fläche</de>
-            <pl>Pole nr %d</pl>
+            <pl>Powierzchnia pola %d</pl>
             <es>Area del campo %d</es>
             <ru>Площадь поля %d</ru>
         </text>
@@ -156,7 +156,7 @@ Nuevo en v1.0.2.2
             <fr>Superficie du terrain</fr>
             <en>Land Area</en>
             <de>Landfläche</de>
-            <pl>Grunt</pl>
+            <pl>Powierzchnia terenu</pl>
             <es>Area de la parcela</es>
             <ru>Площадь участка</ru>
         </text>
@@ -164,7 +164,7 @@ Nuevo en v1.0.2.2
             <fr>Superficie</fr>
             <en>Area</en>
             <de>Fläche</de>
-            <pl>Grunt</pl>
+            <pl>Teren</pl>
             <es>Area</es>
             <ru>Площадь</ru>
         </text>
@@ -180,7 +180,7 @@ Nuevo en v1.0.2.2
             <fr>Récolte potentielle</fr>
             <en>Potential harvest quantity</en>
             <de>Potenzielle Erntemenge</de>
-            <pl>Potencjalna ilość zbiorów</pl>
+            <pl>Potencjalny plon</pl>
             <es>A cosechar aprox.</es>
             <ru>Возможный урожай</ru>
         </text>
