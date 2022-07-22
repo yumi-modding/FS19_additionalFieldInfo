@@ -109,10 +109,7 @@ function AdditionalFieldInfo:onFieldDataUpdateFinished(data)
                         table.insert(self.customRows, self:addCustomText(Field_xx_Area, fieldArea))
                     end
                     if self.potentialHarvestQty ~= nil and self.fruitType ~= nil then
-                        -- local oldmultiplier = g_currentMission:getHarvestScaleMultiplier(self.fruitType, data.fertilizerFactor, data.plowFactor, data.cultivatorFactor, data.weedFactor)
-                        -- print("oldmultiplier "..tostring(oldmultiplier))
-                        local multiplier = g_currentMission:getHarvestScaleMultiplier(self.fruitType, data.fertilizerFactor, data.needsPlowFactor, data.needsLimeFactor, data.weedFactor)
-                        multiplier = 1.1 * multiplier -- Add 10% more for now since it looks like prediction are always less than real yield
+                        local multiplier = g_currentMission:getHarvestScaleMultiplier(self.fruitType, data.fertilizerFactor, 1 - data.needsPlowFactor, 1 - data.needsLimeFactor, 1 - data.weedFactor)
                         -- print("multiplier "..tostring(multiplier))
                         local fillType = self.fruitTypeManager:getFillTypeByFruitTypeIndex(self.fruitType.index)
                         local massPerLiter = fillType.massPerLiter
