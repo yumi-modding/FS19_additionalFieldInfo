@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="53">
     <author>yumi</author>
-    <version>1.0.2.4</version>
+    <version>1.0.2.5</version>
     <title>
         <en>Additional Field Info</en>
         <fr>Informations De Champ Supplémentaires</fr>
@@ -33,6 +33,8 @@ Fixed in v1.0.2.3
   - Fix compatibility with Precision Farming and remove redundant information
 Fixed in v1.0.2.4
   - Fix compatibility with Info Menu mod and remove redundant information, fix yield calculation
+Fixed in v1.0.2.5
+  - Prevent yield display on cultivated field in some cases
 ]]></en>
         <fr><![CDATA[
 Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
@@ -58,6 +60,8 @@ Fixed in v1.0.2.3
   - Compatibilité avec Precision Farming et suppression des informations redondantes
 Fixed in v1.0.2.4
   - Compatibilité avec le mod Info Menu et suppression des informations redondantes, correction des calculs de rendement
+Fixed in v1.0.2.5
+  - N'affiche plus le rendement sur les champs cultivés non semés
 ]]></fr>
         <de><![CDATA[
 Zeigen Sie zusätzliche Informationen im Feldinfofenster an, wenn Sie durch ein Feld gehen:
@@ -83,6 +87,8 @@ Fixed in v1.0.2.3
   - Problem mit Precision Farming behoben und redundante Informationen entfernt
 Fixed in v1.0.2.4
   - Problem mit Info Menu behoben und redundante Informationen entfernt, Ertragsberechnung behoben
+Fixed in v1.0.2.5
+  - Ertragsauslage auf Ackerfläche verhindern
 ]]></de>
         <pl><![CDATA[
 Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -108,6 +114,8 @@ Naprawione in v1.0.2.3
   - Napraw zgodność z Precision Farming i usuń zbędne informacje 
 Naprawione in v1.0.2.4
   - Napraw zgodność z Info Menu i usuń zbędne informacje, napraw potencjalny wydajności
+Naprawione in v1.0.2.5
+  - W niektórych przypadkach zapobiega wyświetlaniu plonów na polu uprawnym
 ]]></pl>
         <es><![CDATA[
 Muestra información adicional sobre el campo que estás:
@@ -133,6 +141,8 @@ Arreglado in v1.0.2.3
   - Compatibilidad con Precision Farming y elimine la información redundante 
 Arreglado in v1.0.2.4
   - Compatibilidad con Info Menu y elimine la información redundante, corrija el cálculo del rendimiento
+Fixed in v1.0.2.5
+  - Evita la visualización del rendimiento en campo cultivado en algunos casos
 ]]></es>
         <ru><![CDATA[
 Отображение дополнительной информации на панели информации о поле при проходе по полю:
@@ -157,6 +167,8 @@ Arreglado in v1.0.2.4
   - Исправлена совместимость с Precision Farming и удалена лишняя информация
 Исправлено в v1.0.2.4
   - Исправлена совместимость с Info Menu и удалена лишняя информация, исправить расчет доходности
+Fixed in v1.0.2.5
+  - Предотвратить отображение урожайности на обрабатываемом поле в некоторых случаях 
 ]]></ru>
     </description>
     <iconFilename>modIcon.dds</iconFilename>
