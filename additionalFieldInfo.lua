@@ -55,6 +55,8 @@ function AdditionalFieldInfo:setFruitType(fruitTypeIndex, fruitGrowthState)
         else
             self.potentialHarvestQty = nil
         end
+    else
+        self.potentialHarvestQty = nil
     end
 end
 FieldInfoDisplay.setFruitType = Utils.prependedFunction(FieldInfoDisplay.setFruitType, AdditionalFieldInfo.setFruitType)
