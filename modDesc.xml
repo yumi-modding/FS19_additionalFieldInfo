@@ -32,7 +32,7 @@ New in v1.0.2.2
 Fixed in v1.0.2.3
   - Fix compatibility with Precision Farming and remove redundant information
 Fixed in v1.0.2.4
-  - Fix compatibility with Info Menu mod and remove redundant information
+  - Fix compatibility with Info Menu mod and remove redundant information, fix yield calculation
 ]]></en>
         <fr><![CDATA[
 Affiche des informations supplémentaires dans le panneau lorsque vous parcourez un champ à pied:
@@ -57,7 +57,7 @@ New in v1.0.2.2
 Fixed in v1.0.2.3
   - Compatibilité avec Precision Farming et suppression des informations redondantes
 Fixed in v1.0.2.4
-  - Compatibilité avec le mod Info Menu et suppression des informations redondantes
+  - Compatibilité avec le mod Info Menu et suppression des informations redondantes, correction des calculs de rendement
 ]]></fr>
         <de><![CDATA[
 Zeigen Sie zusätzliche Informationen im Feldinfofenster an, wenn Sie durch ein Feld gehen:
@@ -82,7 +82,7 @@ New in v1.0.2.2
 Fixed in v1.0.2.3
   - Problem mit Precision Farming behoben und redundante Informationen entfernt
 Fixed in v1.0.2.4
-  - Problem mit Info Menu behoben und redundante Informationen entfernt
+  - Problem mit Info Menu behoben und redundante Informationen entfernt, Ertragsberechnung behoben
 ]]></de>
         <pl><![CDATA[
 Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -107,7 +107,7 @@ Nowe w v1.0.2.2
 Naprawione in v1.0.2.3
   - Napraw zgodność z Precision Farming i usuń zbędne informacje 
 Naprawione in v1.0.2.4
-  - Napraw zgodność z Info Menu i usuń zbędne informacje 
+  - Napraw zgodność z Info Menu i usuń zbędne informacje, napraw potencjalny wydajności
 ]]></pl>
         <es><![CDATA[
 Muestra información adicional sobre el campo que estás:
@@ -132,7 +132,7 @@ Nuevo en v1.0.2.2
 Arreglado in v1.0.2.3
   - Compatibilidad con Precision Farming y elimine la información redundante 
 Arreglado in v1.0.2.4
-  - Compatibilidad con Info Menu y elimine la información redundante 
+  - Compatibilidad con Info Menu y elimine la información redundante, corrija el cálculo del rendimiento
 ]]></es>
         <ru><![CDATA[
 Отображение дополнительной информации на панели информации о поле при проходе по полю:
@@ -156,7 +156,7 @@ Arreglado in v1.0.2.4
 Исправлено в v1.0.2.3
   - Исправлена совместимость с Precision Farming и удалена лишняя информация
 Исправлено в v1.0.2.4
-  - Исправлена совместимость с Info Menu и удалена лишняя информация
+  - Исправлена совместимость с Info Menu и удалена лишняя информация, исправить расчет доходности
 ]]></ru>
     </description>
     <iconFilename>modIcon.dds</iconFilename>
